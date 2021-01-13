@@ -393,18 +393,18 @@ section {
   color: #920e50;
 }
 
-.about .content p:last-child {
+/* .about .content p:last-child {
   margin-bottom: 0;
 }
 
 .about .info .email, .contact .info .phone {
   margin-top: 40px;
-}
+} */
 
-.about .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+/* .about .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #920e50;
   color: #fff;
-}
+} */
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
