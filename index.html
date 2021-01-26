@@ -59,7 +59,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Nancy Inbanathan</h1>
-      <p> Developer <span class="typed" data-typed-items="Mobile, Web"></span></p>
+      <p><span class="typed" data-typed-items="Android Developer,Java Developer"></span></p>
       <div class="social-links">
         <a href="https://github.com/nancyrobin?tab=repositories" class="github"><i class="bx bxl-github"></i></a>
         <a href="mailto:nancymartina@gmail.com" class="mail-send"><i class="bx bx-mail-send"></i></a>
@@ -78,7 +78,8 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I'm a detail-oriented and innovative software developer with more than 10 years of experience. I have expertise in building user-focused mobile applications with the most up-to-date tools and frameworks. </p>
+          <p>I’m a detail-oriented and innovative software developer with more than 10 years of experience. 
+            I have expertise in building native Android mobile applications with the most up-to-date tools and frameworks. </p>
         </div>
 
         <div class="row">
@@ -88,38 +89,46 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Android Developer</h3>
             <p class="font-italic">
-              I have created native android applications(Java) using Android Studio 4.1.1. I'm experienced in UI/UX design principles needed to develop a complete 
-              application. I have used Dagger for Dependency Injection, ROOM database, Job schedulers, Broadcast receivers and more on MVVM architecture.
-            
+              I have created native Android applications using Android Studio. I'm experienced in UI/UX design principles. I have used Dagger for Dependency Injection, ROOM database, Job schedulers, Broadcast receivers and more on MVVM architecture.
+              I have adopted API-First development methodology and developed OpenAPI-Spec-compliant REST APIs using Java Springboot and Swagger tools, secured them using Spring Security and deployed them to AppEngine instances on  Google Cloud Platform(GCP).
+              I have used Spring Data JPA to create and work with Datastores.
               I have designed and developed webpages using Bootstrap 4, Gulp, SASS, jQuery and NodeJS.
             </p>
             <br>
             
               
               <div class="info row">
-                <div class="col">
-                  <div class="address col">
+                <div class="col col-xs-6">
+                  <div class="address">
                     <i class="icofont-google-map"></i>
                     <h6>Location:</h6>
                     <p>Atlanta, GA</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="email col">
+                <div class="col col-xs-6">
+                  <div class="email">
                     <i class="icofont-envelope"></i>
                     <h6>Email:</h6>
                     <p>nancymartina@gmail.com</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="phone col">
+                <!-- <div class="col col-xs-6">
+                  <div class="phone">
                    <i class="icofont-phone"></i>
                    <h6>Call:</h6>
-                   <p>+1 847 826 4661</p>
+                   <p></p>
                   </div>
-                </div>
+                </div> -->
               </div>
-            
+              <div class="row">
+                <!-- <a href="https://drive.google.com/file/d/10z0e2xSX66N508Cz2cD80kS8Z1ethoSP/view?usp=sharing">
+                  <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+                </a> -->
+                <div class="col">
+                  <a class="btn btn-primary downloadButton" target="_blank" href="https://drive.google.com/file/d/10z0e2xSX66N508Cz2cD80kS8Z1ethoSP/view?usp=sharing" role="button">Download Resume</a>
+                </div>
+                
+              </div>
             
             
           </div>
@@ -134,47 +143,57 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-       
+       <p>Developed two native Android applications, one of which is published and available in the Google Play store</p>
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md">
-              <h4>Queues App</h4>
+              <h4>App 1: Queues</h4>
               <ul> 
-                <li>Designed, developed and published a <b>native Android app</b>. </li>
-                <li><b>Cloud-based Virtual Queue Management</b> app.</li>
-                <li>Allows users to create virtual queues and publish them over <b>www.queues.us</b>.</li>
-                <li><b>Proximity searches based on geolocation </b>which allows customers to view virtual queues within a 5 mile radius.</li>
-                <li><b>Casting</b> to a nearby <b>Chromecast</b> enabled display to share the queue status.</li>
-                <li>Push Notifcations implemented using <b>Firebase Cloud Messaging(FCM).</b></li>
+                <li><b>Cloud-based Virtual Queue Management</b> app </li>
+                <li>Allows users to create virtual queues and publish  them over <a href="https://www.queues.us" target="_blank">www.queues.us</a></li>
+                <li>Uses <b>Google’s Single Sign-on</b> Authentication</li>
+                <li>Requests for <b>Location permissions</b> to store location and publish the queue on www.queues.us based on proximity</li>
+                <li>Casts queue status to a nearby <b>Chromecast</b>  enabled display</li>
+                <li>Uses <b>Retrofit</b> to make aynchronous API calls</li>
+                <li>Uses <b>Firebase Cloud Messaging(FCM)</b> to implement Push Notifcations</li>
+                <li>Uses <b>Adapters and Recycler views</b> to list the customers in the queue</li>
               </ul>
             </div>
             <div class="col-md">
               <div class="row">
-                <img src="assets/img/appicon_free.png" class="img-fluid mx-auto d-block" width="150" height="150" alt="">
+                <img src="assets/img/appicon_free.png" class="rounded-circle mx-auto" width="100" height="100" alt="">
               </div>
-              
+              <div class="row justify-content-center">
+                <h5>Queues</h5>
+              </div>
               <div class="row"> 
-                <a class="mx-auto d-block" href='https://play.google.com/store/apps/details?id=com.consciousnessitlabs.virtualqueue&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="180" height="80" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+                <a class="mx-auto d-block" target="_blank" href='https://play.google.com/store/apps/details?id=com.consciousnessitlabs.virtualqueue&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="180" height="80" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
               </div>
             </div> 
           </div>
           <hr>
           <div class="row">
             <div class="col-md">
-              <h4>SMS Queues App</h4>
+              <h4>App 2: SMS Queues</h4>
               <ul> 
-                <li>Designed and developed native Android app.</b>. </li>
-                <li><b>SMS-based virtual queue management </b>app.</li>
-                <li>Made use of the <b>android.telephony framework</b>.</li>
-                <li>Keyword(within SMS texts) based interaction with the app.</li>
-                <li><b>SQLite ROOM database with Live Data</b> on device to store customer information.</li>
-                <li>Followed<b> MVVM architecture principle</b> using <b>Repository and ViewModel</b>.</li>
-                <li>Automated SMS texts sent to customers in the queue through <b>SmsManager</b>.</li>
-                <li>Implemented custom <b>BroadcastReceiver</b> for listening to incoming SMS text messages.</li>
+                <li><b>SMS-based Virtual Queue Management</b> app</li>
+                <li>Extension of an opensource Android native messaging App(QKSMS)</li>
+                <li>Uses <b>android.telephony framework</b></li>
+                <li>Supports keyword based interaction with the app, through SMS texts</li>
+                <li>Uses <b>SQLite ROOM database</b> on device using repository and <b>Live Data</b> to store customer information</li>
+                <li>Based on <b>MVVM architecture</b> using <b>Repository</b> and <b>ViewModel</b></li>
+                <li>Uses <b>SmsManager</b> to send automated SMS text replies to customers in the queue</li>
+                <li>Uses custom <b>BroadcastReceiver</b> to listen to incoming SMS text messages</li>
               </ul>
             </div>
             <div class="col-md">
+              <div class="row">
+                <img src="assets/img/icon.png" class="rounded-circle mx-auto" width="100" height="100" alt="">
+              </div>
+              <div class="row justify-content-center">
+                <h5>SMS Queues</h5>
+              </div>
               <div class="row">
                 <img src="assets/img/screen1.png" class="img-fluid mx-auto d-block" width="150" height="300" alt="">
                 <img src="assets/img/screen2.png" class="img-fluid mx-auto d-block" width="150" height="300" alt="">
@@ -209,33 +228,34 @@
                     <img src="assets/img/firebase.png" class="img-fluid mx-auto d-block" width="60" height="60" alt="">
                   </div> -->
                   <ul>
-                    <li>Designed developed and implemented an android application to manage queues virtually.</li>
-                    <li>Worked with <b>RxJava (ReactiveX)</b> for asynchronous composition and manipulation of data and events using Observers and Observables in the application.</li>
-                    <li>Consumed <b>REST services </b>by getting <b>JSON</b> response and parsing them to get the required data.</li>
-                    <li>Worked with <b>Recycler Views</b> for displaying the list.</li>
-                    <li>Implemented <b>Overflow menus</b> for the settings.</li>
-                    <li>Implemented Sliding Menu using <b>Navigation Drawer</b> for an easy flow of the application.</li>
-                    <li>Using <b>Material Design </b>elements like widgets for cards and lists, custom shadows, navigation drawers etc. to enhance the user interface of the application.</li>
-                    <li>Implemented the <b>Firebase messaging (FCM) </b>for receiving data changes.</li>
-                    <li>Used <b>Glide library </b>for loading the images and customizing them.</li>
-                    <li>Used <b>Git</b> as project version control tool.</li>
+                    <li>Used <b>Material Design</b> elements like widgets for cards and lists, custom shadows, navigation drawers to enhance user experience</li>
+                    <li>Used <b>Glide library</b> for image rendering</li>
+                    <li>Integrated <b>Google Play Billing library</b> for premium app features</li>
+                    <li>Created <b>App Store Optimized(ASO)</b> app listings</li>
+                    <li>Created <b>Signed App Bundles</b> for Alpha/Beta/Prod Releases and internal app sharing on <b>Google Play Developer Console</b></li>
+                    <li>Used <b>Google Admobs</b> to serve in-App ads </li>
+                    <li>Used <b>Facebook Business Suite</b> and <b>Ads Manager</b>  to promote the app on social platforms</li>
+                    <li>Used <b>Google Ads</b> to promote the app on Google Search Engine results, Youtube ads and Google ads</li>
                   </ul>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="demo-content bg-alt">
-                  <h4>Java Back-end</h4>
+                  <h4>Java Development</h4>
                   <!-- <div class=row>
                     <img src="assets/img/swagger.png" class="img-fluid mx-auto d-block" width="90" height="60" alt="">
                     <img src="assets/img/spring.png" class="img-fluid mx-auto d-block" width="90" height="50" alt="">
                     <img src="assets/img/api.png" class="img-fluid mx-auto d-block" width="90" height="60" alt="">
                   </div> -->
                   <ul>
-                    <li>Created a backend <b>Java application</b> to perform the core functionalities of the virtual queueing app.</li>
-                    <li>Utilized <b>Java Springboot</b> framework to design the Rest API.</li>
-                    <li>Followed API first methodology using <b>Swagger tools</b> compliant with <b>Open API standards</b>.</li>
-                    <li>Utilized <b>Spring data JPA</b> to implement a data access layer.</li>
-                    <li>Implemented authentication using <b>Spring security and Google API OAUTH</b>.</li>
+                    <li>Developed a <b>Java 8 application</b> on <b>SpringBoot</b> to perform the core functionalities of the virtual queueing app</li>
+                    <li>Adopted <b>API-First methodology</b> and designed an <b>OpenAPI Spec</b> compliant REST API using <b>Swagger</b> tools</li>
+                    <li>Utilized <b>Swagger Code Generator</b> Java libraries to generate server(Java Springboot API) and client(Java Android) stubs</li>
+                    <li>Implemented a <b>DB Abstraction Layer</b> and <b>Query-less Data Access</b> using <b>Spring Data JPA</b></li>
+                    <li>Structured a Data Model to capture geolocation data using lat/long co-ordinates and implemented distance and proximity searches using <b>MySQL functions</b></li>
+                    <li>Implemented authentication using <b>Spring security</b> and <b></b>Google API</b> as the OAuth Provider</li>
+                    <li>Utilized <b>Google API client libraries</b> for <b>JWT validation</b></li>
+                    <li>Configured the Java Springboot API to be deployed as a <b>AppEngine</b> instance in <b>Google Cloud Platform</b></li>
                   </ul>
                 </div>
             </div>
@@ -252,10 +272,10 @@
                     <img src="assets/img/gulp.png" class="mx-auto d-block" width="90" height="80" alt="">
                   </div> -->
                   <ul>
-                    <li>Developed webpages using <b>HTML 5, CSS and JavaScript</b>.</li>
-                    <li>Made use of <b>jQuery 3.5, Bootstrap 4, SASS</b>.</li>
-                    <li>Utilized <b>Gulp</b> to automate workflow. </li>
-                    <li>Purchased domain(www.queues.us) using <b>Google Domains</b>.</li>
+                    <li>Developed webpages using <b>HTML 5, CSS and JavaScript</b></li>
+                    <li>Made use of <b>jQuery 3.5, Bootstrap 4, SASS</b></li>
+                    <li>Utilized <b>Gulp</b> to automate workflow</li>
+                    <li>Purchased and configured DNS settings for www.queues.us using <b>Google Domains</b></li>
                     <li>Published built UI code to <b>Google storage bucket</b> and configured DNS settings on the purchased 
                       domain(www.queues.us) to route traffic to the storage bucket.</li>
                   </ul>
@@ -263,58 +283,95 @@
             </div>
             <div class="col-md-6">
                 <div class="demo-content bg-alt">
-                  <h4>Devops</h4>
+                  <h4>DevSecOps</h4>
                   <!-- <div class=row>
                     <img src="assets/img/gcp.png" class="mx-auto d-block" width="120" height="80" alt="">
                     <img src="assets/img/github.png" class="mx-auto d-block" width="60" height="60" alt="">
                     <img src="assets/img/docker.png" class="img-fluid mx-auto d-block" width="90" height="60" alt="">
                   </div> -->
                   <ul>
-                    <li>Used <b>Gradle</b> for building Java projects.</li>
-                    <li>Used <b>gulp.js</b> for building UI projects.</li>
-                    <li>Deployed Java applications in <b>Google Cloud Platform’s(GCP) App Engine</b>.</li>
+                    <li>Used Github as VCS</li>
+                    <li>Used <b>Gradle</b> as build script for Java projects.</li>
+                    <li>Used <b>gulp.js</b> for building UI projects</li>
+                    <li>Deployed Java applications in <b>Google Cloud Platform’s(GCP) App Engine</b></li>
                     <li>Configured <b>OAUTH</b> for the Java service using <b>Spring security and Google API</b> as the Auth provider.</li>
                     <li>Used <b>Google Single Sign-on API</b> to accept authorization headers in the API requests and validate them against 
-                      the Google token validation service.</li>
-                    <li>Spun up <b>MySQL instance</b> on Google Cloud Platform to serve as the datastore for the Springboot API that uses <b>Spring Data JPA</b>.</li>
-                    <li>Worked on <b>DOCKER </b>to setup a local MySQL instance to serve as a persistent non-prod environment.</li>
+                      the Google token validation service</li>
+                    <li>Spun up <b>MySQL instance</b> on Google Cloud Platform to serve as the datastore for the Springboot API that uses <b>Spring Data JPA</b></li>
+                    <li>Worked on <b>Docker </b>to setup a local MySQL instance to serve as a persistent non-prod environment</li>
                   </ul>
                 </div>
             </div>
         </div>
-        <hr>
+        
         <div class="row">
           <div class="col-md">
             <h4>Skills Summary</h4>
-            <ul>
-              <li><b>Android Development:</b> Layouts, Activities, Fragments, Services, Broadcast receivers, Content Providers, Asynctask, MVVM, Dependency Injection,
-                 Room database, DAO, Repository, Live data, Recycler View, Parsing JSON, http connection, Gradle, Firebase Messaging(FCM) </li>
-              <li><b>Languages:</b> Java, Kotlin, Cobol, JCL, REXX</li>
-              <li><b>Frameworks:</b> Spring, Hibernate, JDBC, Retrofit</li>
-              <li><b>Web Technologies:</b> HTML 5, CSS 3, XML, JavaScript, jQuery, Bootstrap, Springboot, Restful API</li>
-              <li><b>DevOps:</b> Google Cloud Platform(GCP), App Engine, cloud SQL, Storage buckets, Docker </li>
-              <li><b>IDE:</b> Android Studio, VS Code</li>
-              <li><b>Editors:</b> Atom, Notepad++ </li>
-              <li><b>Version Control Tools:</b> Git, Sourcetree, Endevor</li>
-              <li><b>Databases:</b> SQLite, MySQL, Oracle, DB2, IMS, IDMS</li>
-              <li><b>Datawarehousing Tools:</b> ETL, Datastage, putty, Autosys, winSCP</li>
-              <li><b>Testing Tools & Frameworks:</b> Junit, Espresso, Expeditor</li>
-              <li><b>Bug Tracker Tools:</b> JIRA, HPALM, QC</li>
-              <li><b>Operating systems:</b> Windows, Android variants, Mainframe ZOS</li>
-              <li><b>Mainframe Tools:</b> CICS, VSAM, FileAid, AbendAid, Intertest, JobTrac</li>
-              <li><b>Domains:</b> Banking, Investments, Home Mortgage</li>
-            </ul>
+            <table class="table">
+              <!-- <thead>
+                <th scope="col"></th>
+              </thead> -->
+              <tbody>
+                <tr>
+                  <td><b>Android</b></td>
+                  <td>Layouts, Activities, Fragments, Services, Broadcast receivers, Content Providers, Asynctask, MVVM, Dependency Injection, 
+                    Room database, DAO, Repository, Live data, Recycler View, Parsing JSON, http connection, Gradle, Firebase Cloud Messaging(FCM), 
+                    Retrofit,Junit, Espresso</td>
+                </tr>
+                <tr>
+                  <td><b>Java</b></td>
+                  <td>Springboot, Spring Data JPA, Spring Security, Swagger</td>
+                </tr>
+                <tr>
+                  <td><b>Web</b></td>
+                  <td>HTML 5, CSS 3, XML, JavaScript, jQuery, Bootstrap, Restful API</td>
+                </tr>
+                <tr>
+                  <td><b>Databases</b></td>
+                  <td>SQLite, MySQL, Oracle, DB2, IMS, IDMS</td>
+                </tr>
+                <tr>
+                  <td><b>DevSecOps</b></td>
+                  <td>Google Cloud Platform(GCP), App Engine, Cloud SQL, Google Storage Buckets, Docker,GIT, Atlassian Sourcetree, Github Desktop</td>
+                </tr>
+                <tr>
+                  <td><b>Languages</b></td>
+                  <td>Java, Kotlin, Cobol, JCL, REXX</td>
+                </tr>
+                <tr>
+                  <td><b>IDE</b></td>
+                  <td>Android Studio, VS Code</td>
+                </tr>
+                <tr>
+                  <td><b>Editors</b></td>
+                  <td>Atom, Notepad++, Krita, Lunacy, renderforest.com</td>
+                </tr>
+                <tr>
+                  <td><b>Agile Tools</b></td>
+                  <td>JIRA, HPALM, HP QC, Slack</td>
+                </tr>
+                <tr>
+                  <td><b>Operating systems</b></td>
+                  <td>Unix, Windows, Android variants, Mainframe ZOS</td>
+                </tr>
+                <tr>
+                  <td><b>Mainframe</b></td>
+                  <td>CICS, VSAM, FileAid, AbendAid, Intertest, JobTrac, Endevor,Expeditor</td>
+                </tr>
+                <tr>
+                  <td><b>Datawarehousing</b></td>
+                  <td>ETL, Datastage, Putty, Autosys, WinSCP</td>
+                </tr>
+                <tr>
+                  <td><b>Domains</b></td>
+                  <td>Banking, Investments, Home Mortgage</td>
+                </tr>
+              </tbody>
+            </table>
+            
           </div>
         </div>
-        <div class="row">
-          <!-- <a href="https://drive.google.com/file/d/10z0e2xSX66N508Cz2cD80kS8Z1ethoSP/view?usp=sharing">
-            <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
-          </a> -->
-          <div class="col align-self-center ml-2">
-            <a class="btn btn-primary" href="https://drive.google.com/file/d/10z0e2xSX66N508Cz2cD80kS8Z1ethoSP/view?usp=sharing" role="button">Download Resume</a>
-          </div>
-          
-        </div>
+        
         
     </div>
 

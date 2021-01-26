@@ -377,7 +377,10 @@ section {
   font-size: 26px;
   color: #728394;
 }
-
+.about .downloadButton {
+  background-color: #920e50;
+  border-color: #000000;
+} 
 .about .content ul {
   list-style: none;
   padding: 0;
